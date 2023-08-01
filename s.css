@@ -50,3 +50,37 @@ full width of page, min-height relative to page, background gradiant, text colou
     border-radius: 5px;
     position: relative;
 }
+
+.input-box button {
+    background: #ffff47;
+    outline: 0;
+    border: 0;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+}
+
+.input-box input::-webkit-calendar-picker-indicator{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    position: absolute;
+    background-position: calc(100% - 10px);
+    background-size: 30px;
+    cursor: pointer;
+}
+
+#result{
+    font-size: 20px;
+
+}
+
+#result span{
+    color: #909090;
+    
+}
